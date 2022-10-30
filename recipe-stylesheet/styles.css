@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.index-recipe {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-images {
+    width: 25em;
+    height: auto;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.meat , .onion {
+    margin-top: 50px;
+}
+
+.chicken {
+    margin-top: 25px;
+}
+
+.main-image-container , .recipe-paragraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-main-image {
+    width: 75em;
+    border: 5px solid;
+    border-radius: 5px;
+}
