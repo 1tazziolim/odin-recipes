@@ -56,11 +56,12 @@ h1 {
 #parent-list-container {
     display: flex;
     flex-direction: row;
+    flex: auto;
 }
 
 .recipe-lists-container {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
     width: 50%;
