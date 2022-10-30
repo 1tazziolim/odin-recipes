@@ -1,8 +1,13 @@
+html{
+    background-color: bisque;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: underline 1px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .index-recipe {
@@ -46,4 +51,30 @@ h1 {
     width: 75em;
     border: 5px solid;
     border-radius: 5px;
+}
+
+#parent-list-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe-lists-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.recipe-lists-prepare {
+    inline-size: 500px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+li {
+    padding-top: 7px;
 }
